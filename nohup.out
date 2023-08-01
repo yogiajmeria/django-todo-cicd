@@ -1,0 +1,52 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+July 25, 2023 - 23:54:03
+Django version 3.2.12, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+/home/ubuntu/projects/django-todo/todoApp/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+July 25, 2023 - 23:57:29
+Django version 3.2.12, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+July 25, 2023 - 23:57:33
+Django version 3.2.12, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8001/
+Quit the server with CONTROL-C.
+Error: That port is already in use.
+[25/Jul/2023 23:57:39] "GET / HTTP/1.1" 302 0
+[25/Jul/2023 23:57:39] "GET /todos HTTP/1.1" 301 0
+[25/Jul/2023 23:57:39] "GET /todos/ HTTP/1.1" 200 3515
+[25/Jul/2023 23:57:39] "GET /static/css/style.css HTTP/1.1" 200 225
+Not Found: /favicon.ico
+[25/Jul/2023 23:57:40] "GET /favicon.ico HTTP/1.1" 404 2572
+[26/Jul/2023 00:00:00] "GET /todos/2/delete HTTP/1.1" 302 0
+[26/Jul/2023 00:00:00] "GET /todos/ HTTP/1.1" 200 2923
